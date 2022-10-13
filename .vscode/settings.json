@@ -46,7 +46,11 @@
         "xutility": "cpp",
         "string": "cpp",
         "vector": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "stdlib.h": "c",
+        "deque": "c",
+        "random": "c",
+        "stack": "c"
     },
     "liveServer.settings.port": 5501
 }
