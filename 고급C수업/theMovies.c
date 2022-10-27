@@ -40,7 +40,7 @@ int seatReservationCheck(char c)
     return 0;
 }
 
-// 좌석 번호와 현재 좌석 상황 출력
+// 좌석 번호와 현재 좌석 상황 출력 함수
 void printSeat(int seat[][SIZE])
 {
     printf("++++------------------------------\n++++");
@@ -61,6 +61,7 @@ void printSeat(int seat[][SIZE])
     }
 }
 
+// 좌석 예약 함수
 void seatReservation(int seat[][SIZE])
 {
     // 최대 좌석 개수 구하기
@@ -94,7 +95,3 @@ void seatReservation(int seat[][SIZE])
         printSeat(seat);
     }
 }
-// 좌석 출력, 예약 함수
-// 좌석예약하면 몇명인지 받고 이후 좌석 예약 진행
-// 배열이 2차원 (10 x 10) -> 상영관 10개 각 상영관마다 10개의 좌석?
-// 돈도 입력받나요??
